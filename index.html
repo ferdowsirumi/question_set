@@ -35,10 +35,13 @@
                 </div>
                 <input type="checkbox" id="nav-check">
                 <div class="nav-links" id="navbar">
-                    <a href="#produccts">Products</a>
+                    <a href="#survey-info">Survey Information</a>
 
-                    <a href="#features">Features</a>
-                    <a href="#availability">Availability</a>
+                    <a href="#survey-instructor">Questionaries</a>
+                    <!-- <a href="#survey-course">Course</a>
+                    <a href="#survey-general">General</a> -->
+                    <a href="#survey-comments">Comments</a>
+
                     <a href="../index.html" class="round" target="_blank">My Profile</a>
                 </div>
             </div>
@@ -51,8 +54,8 @@
     </div>
     <!-- End header -->
 
-    <form method="POST" action="mailto:hferdowsi@centinnelcollege.ca">
-        <section class="section-gray color-black">
+    <form method="POST" action="mailto:hferdowsi@centinnelcollege.ca" id="feedbackForm">
+        <section class="section-gray color-black" id="survey-info">
             <div class="section-tittle section-contact">
                 <p class="top-text">Please read each statement carefully and consider each one individually. <br>Use the
                     <strong>computer card
@@ -97,9 +100,9 @@
         </section>
 
 
-        <section class="question-container">
+        <section class="question-container" >
             <div class="section-gray">
-                <div class="question-section">
+                <div class="question-section" id="survey-instructor">
                     <div class="question-title">INSTRUCTOR</div>
                     <div class="question-sub-title">How whould you rate the Instructor's: </div>
                     <div class="question">
@@ -180,7 +183,7 @@
                     </div>
                 </div>
 
-                <div class="question-section">
+                <div class="question-section" id="survey-course">
                     <div class="question-title">Course Materials</div>
                     <div class="question-sub-title">How whould you rate the course material: </div>
                     <div class="question">
@@ -230,7 +233,7 @@
                     </div>
                 </div>
 
-                <div class="question-section">
+                <div class="question-section" id="survey-general">
                     <div class="question-title">General Infromation</div>
                     <div class="question-sub-title">Some general question about the course: </div>
                     <div class="question">
@@ -282,7 +285,7 @@
                     </div>
                 </div>
 
-                <div class="question-section">
+                <div class="question-section" id="survey-comments">
                     <div class="question-title">Other Comments</div>
                     <div class="question-sub-title">Your valuable comments, please write below: </div>
                     <div class="question">
@@ -315,7 +318,7 @@
                     <div>
                         <input value="Send Survey" class="button" id="submit-button" type="submit"></div>
                     <div>
-                        <input value="Clear Questions" class="button clear" id="clear-button" type="submit"></div>
+                        <input value="Clear Questions" class="button clear" id="clear-button" onclick="resetForm()" type="submit"></div>
                 </div>
             </div>
         </section>

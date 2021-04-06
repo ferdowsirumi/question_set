@@ -317,7 +317,7 @@ input[type='radio']:checked:after {
 .nav > .nav-links {
   display: inline;
   float: right;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .nav > .nav-links > a {
@@ -328,7 +328,6 @@ input[type='radio']:checked:after {
   font-size: 12px !important;
   line-height: 30px !important;
   text-transform: uppercase;
-  font-weight: bold;
 }
 
 .round {
@@ -1357,5 +1356,3 @@ ul.footer-social li a i {
     width: 100%;
   }
 }
-
-/*-- End- footer-section */
