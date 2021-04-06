@@ -147,12 +147,22 @@ input[type="radio"]:checked:after {
 }
 
 .survey-title{
-  color:#3094C4;
+  color:#a5c663;
   padding: 10px;
   text-align: center;
-  margin:10px;
+  margin-top:10px; 
+  margin-bottom:0px;
+  padding-bottom: 5px;
   font-size: 1.5em;
   text-transform: uppercase;
+}
+hr{
+  height: 1px;
+  background-color: #3094C4;
+  border: none;
+  max-width: 200px;
+  padding: 0;
+  margin-bottom: 20px;
 }
 
 .row {
