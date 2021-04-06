@@ -146,6 +146,15 @@ input[type="radio"]:checked:after {
   font-size: 12px;
 }
 
+.survey-title{
+  color:#3094C4;
+  padding: 10px;
+  text-align: center;
+  margin:10px;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
 .row {
   content: "";
   display: table;
@@ -433,7 +442,7 @@ ul.footer-social li a i {
     position: absolute;
     display: block;
     width: 100%;
-    background-color: #c93b2b;
+    background-color: #3094C4;
     height: 0px;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
