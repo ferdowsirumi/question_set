@@ -27,7 +27,7 @@ body {
   background-position-y: 10px;
 }
 
-.question-container{
+.question-container {
   background-color: rgba(51, 155, 203, 0.1);
 }
 .question-section {
@@ -37,19 +37,19 @@ body {
   padding: 0px 0 10px 0;
   width: 100%;
   margin: 0 0 40px 0;
-  border: 1px solid #339CCB;
+  border: 1px solid #339ccb;
 }
 
 .question-title {
   padding: 10px 10px 10px 20px;
-  background-color: #A5C673;
+  background-color: #a5c673;
   font-size: 16px;
   text-transform: uppercase;
-  color:white;
+  color: white;
 }
 .question-sub-title {
   padding: 10px;
-  color: #A5C673;
+  color: #a5c673;
   font-size: 14px;
 }
 .question {
@@ -83,7 +83,7 @@ input[type="radio"] {
   font-family: "Ted Next";
   font-size: 16px;
 }
-input[type='radio']:checked:after {
+input[type="radio"]:checked:after {
   width: 15px;
   height: 15px;
   border-radius: 15px;
@@ -91,7 +91,7 @@ input[type='radio']:checked:after {
   left: -1px;
   position: relative;
   background-color: #a5c663;
-  content: '';
+  content: "";
   display: inline-block;
   visibility: visible;
   border: 2px solid a5c663;
@@ -102,7 +102,7 @@ input[type='radio']:checked:after {
   display: block;
 }
 
-.survey-send > div{
+.survey-send > div {
   margin-left: 20px;
   width: 200px;
   display: inline-block;
@@ -120,7 +120,6 @@ input[type='radio']:checked:after {
   font-size: 18px;
   line-height: 18px;
   font-weight: bold;
-
 }
 
 .header-title h3 {
@@ -199,24 +198,29 @@ input[type='radio']:checked:after {
   display: none;
 }
 
-/* End white-section*/
-
-/* begin section-grey */
-
-.section-gray {
+/* Main Body */
+.section {
   padding: 30px 0 70px 0;
   width: 100%;
   height: auto;
 }
-
 .section-tittle {
   text-align: center;
 }
 
- .footer {
-  width: 100%;
-  margin: auto;
-  height: auto;
+.section-contact p {
+  color: #bbb;
+  font-size: 16px;
+  text-align: center;
+  line-height: 24px;
+  font-weight: 400;
+  color: #dddddd;
+  margin: 0px;
+  margin-bottom: 18px;
+  font-family: "Cabin", sans-serif;
+}
+.section-tittle {
+  text-align: center;
 }
 
 .option-field1 {
@@ -235,22 +239,6 @@ input[type='radio']:checked:after {
 
 input[type="radio"] {
   margin: 0px 0px 0px 30px;
-}
-
-.section-tittle {
-  text-align: center;
-}
-
-.section-contact p {
-  color: #bbb;
-  font-size: 16px;
-  text-align: center;
-  line-height: 24px;
-  font-weight: 400;
-  color: #dddddd;
-  margin: 0px;
-  margin-bottom: 18px;
-  font-family: "Cabin", sans-serif;
 }
 
 .contact-column {
@@ -310,7 +298,7 @@ textarea:hover {
 
 .button {
   color: white;
-  background-color: #A5C663;
+  background-color: #a5c663;
   text-align: center;
   border: none;
   cursor: pointer;
@@ -325,19 +313,20 @@ textarea:hover {
   border: 1px solid #a5c663;
 }
 
- .clear{
-  background-color:#333333;
+.clear {
+  background-color: #333333;
 }
 
 input[type="text"]:hover {
   border: 1px solid #aaa;
 }
 
-/* End- contact-section*/
+/* end form input styles*/
 
 /*-- begin footer-section */
 
 .footer {
+  margin: auto;
   z-index: 900;
   background-color: #2f3539;
   border-top: 1px solid #393f43;
@@ -356,10 +345,10 @@ input[type="text"]:hover {
 .footer-tittle p {
   font-size: 14px;
   color: #cecece;
-  margin:5px 5px;
+  margin: 5px 5px;
 }
 
-.copyright{
+.copyright {
   font-size: 10px;
   color: #cecece;
   margin: 10px 0px;
@@ -383,7 +372,6 @@ ul.footer-social li {
   margin: 0 auto;
   padding-top: 5px;
   text-align: center;
-
 }
 
 ul.footer-social li a {
@@ -398,20 +386,10 @@ ul.footer-social li a i {
   line-height: 15px !important;
   color: #88ad45;
   text-decoration: none;
-
 }
+/*-- end footer-section */
 
 /* MEDIA QUERIES */
-
-@media screen and (max-width: 900px) {
-  .header-section {
-    padding-bottom: 30px;
-  }
-  .row {
-    width: 100%;
-    padding: 10px;
-  }
-}
 
 @media (max-width: 600px) {
   .nav > .nav-btn {
@@ -470,7 +448,14 @@ ul.footer-social li a i {
 }
 
 @media screen and (max-width: 900px) {
-  .section-gray {
+  .header-section {
+    padding-bottom: 30px;
+  }
+  .row {
+    width: 100%;
+    padding: 10px;
+  }
+  .section {
     padding: 55px 10px 55px 10px;
     width: 100%;
   }
