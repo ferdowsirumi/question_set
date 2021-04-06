@@ -79,6 +79,19 @@ body {
   clear: both;
 }
 
+
+@media screen and (max-width: 900px) {
+  .question > div > div {
+    display: block;
+    width: 100%;
+    min-height: 50px;
+  }
+  .question > div > div:first-child {
+    width: 100%;
+    margin: 0px;
+  }
+}
+
 input[type="radio"] {
   font-family: "Ted Next";
   font-size: 16px;
