@@ -84,7 +84,7 @@ body {
   clear: both;
 }
 
-.row1 {
+/* .row1 {
   content: "";
   display: table;
   clear: both;
@@ -116,7 +116,7 @@ body {
   font-size: 16px;
   margin-top: -7px;
   font-family: "Ted Next";
-}
+} */
 input[type="radio"] {
   font-family: "Ted Next";
   font-size: 16px;
@@ -146,10 +146,10 @@ input[type='radio']:checked:after {
   display: inline-block;
 }
 
-#customers {
+/* #customers {
   border-collapse: collapse;
   width: 100%;
-}
+} */
 .header-title {
   text-align: center;
   color: #464647;
@@ -176,11 +176,11 @@ input[type='radio']:checked:after {
   font-size: 12px;
 }
 
-.phone-feature i {
+/* .phone-feature i {
   color: #c93b2b;
   vertical-align: middle;
   margin-right: 5px;
-}
+} */
 
 .row {
   content: "";
@@ -344,7 +344,7 @@ input[type='radio']:checked:after {
   text-align: center;
 }
 
-.section-tittle h2 {
+/* .section-tittle h2 {
   color: #292929;
   margin-bottom: 15px;
   font-size: 30px;
@@ -422,14 +422,14 @@ input[type='radio']:checked:after {
 .section-price {
   width: 40%;
   text-align: left;
-}
+} */
 
 @media screen and (max-width: 900px) {
   .section-gray {
     padding: 55px 10px 55px 10px;
     width: 100%;
   }
-  .main-services {
+  /* .main-services {
     width: 100%;
     display: block;
     padding: 10px;
@@ -443,14 +443,14 @@ input[type='radio']:checked:after {
   .section-price {
     width: 100%;
     display: block;
-  }
+  } */
 }
 
 /* End section-grey */
 
 /* begin-pricing-section*/
 
-.top-shape-wrapper {
+/* .top-shape-wrapper {
   overflow: hidden;
 }
 
@@ -523,13 +523,12 @@ input[type='radio']:checked:after {
 
 .issue-box p {
   font-size: 14px;
-  /* font-style: italic; */
   font-weight: 400;
   color: #7c8595;
   font-weight: bold;
   margin-top: -5px;
-}
-
+} */
+/* 
 @media screen and (max-width: 900px) {
   .top-shape {
     padding: 20px 0 70px 0;
@@ -538,9 +537,8 @@ input[type='radio']:checked:after {
     width: 100%;
     display: block;
     margin: 10px auto auto auto;
-    /* padding: 50px 30px 40px 30px; */
   }
-}
+} */
 
 .footer {
   width: 100%;
@@ -548,9 +546,8 @@ input[type='radio']:checked:after {
   height: auto;
 }
 
-.footer-distributed {
+/* .footer-distributed {
   background: #c93b2b;
-  /* box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12); */
   box-sizing: border-box;
   width: 100%;
   text-align: left;
@@ -596,11 +593,11 @@ input[type='radio']:checked:after {
 }
 
 /* Footer Center */
-
+/* 
 .footer-distributed .footer-center {
   width: 35%;
   margin: auto;
-}
+} 
 
 .footer-distributed .footer-center i {
   background-color: #c93b2b;
@@ -648,8 +645,8 @@ input[type='radio']:checked:after {
   color: #fff;
   display: inline-block;
   padding-right: 5px;
-}
-
+} */
+/* 
 .footer-distributed .footer-links .link-1:before {
   content: none;
 }
@@ -761,7 +758,7 @@ input[type='radio']:checked:after {
   height: 50px;
   border-radius: 50%;
   transition-duration: 0.8s;
-}
+} */
 
 .red {
   background: red;
@@ -781,7 +778,7 @@ input[type='radio']:checked:after {
 
 /* popup stuff */
 
-.popup-row {
+/* .popup-row {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -801,8 +798,8 @@ input[type='radio']:checked:after {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
-}
-
+} */
+/* 
 @media screen and (max-width: 900px) {
   .popup-column {
     -ms-flex: 100%;
@@ -886,7 +883,6 @@ input[type='radio']:checked:after {
   }
 }
 
-/* Image -map */
 
 .canada-map-image {
   text-align: center;
@@ -898,7 +894,7 @@ input[type='radio']:checked:after {
 
 map:hover area:hover {
   outline: solid rgb(85, 161, 236) 2px;
-}
+} */
 
 /* table {
   font-size: 12px;
@@ -926,7 +922,7 @@ table.nobackground tr {
   background-color: white;
 } */
 
-@media only screen and (max-width: 900px) {
+/* @media only screen and (max-width: 900px) {
   .tableContainer {
     display: block;
     width: 98%;
@@ -941,7 +937,7 @@ table.nobackground tr {
   display: inline-block;
   margin: 0px 10px 10px 0px;
   border-radius: 10px;
-}
+} */
 
 /* QUESTIONSET CSS  */
 
@@ -961,7 +957,7 @@ table.nobackground tr {
   margin: 0px;
   margin-bottom: 25px;
 } */
-
+/* 
 .course-code h2 {
   font-size: 21px;
   font-weight: bold;
@@ -970,7 +966,7 @@ table.nobackground tr {
   color: black;
   margin: 0;
   margin-bottom: 5px;
-}
+} */
 
 .option-field1 {
   height: 50px;
@@ -984,32 +980,6 @@ table.nobackground tr {
   margin-bottom: 10px;
   font-size: 13px;
   border-radius: 5px 5px;
-}
-
-.field {
-  width: 80%;
-  margin: auto;
-}
-
-.field h2 {
-  color: #464647;
-  margin-bottom: 5px;
-  margin-top: 50px;
-  font-size: 18px;
-  font-family: "Verdana";
-  font-weight: bold;
-  line-height: 10px;
-}
-
-.field h3 {
-  color: #464647;
-  font-size: 14px;
-  font-family: "Verdana";
-}
-.space {
-  margin-bottom: 25px;
-  font-weight: bold;
-  font-family: "Cabin";
 }
 
 input[type="radio"] {
@@ -1138,10 +1108,6 @@ input[type="text"] {
   border-radius: 5px 5px;
 }
 
-.white-input {
-  margin-top: 15px;
-  color: white;
-}
 ::-webkit-input-placeholder {
   /* Edge */
   color: white;
