@@ -22,9 +22,9 @@
             <div class="nav">
                 <div class="nav-header">
                     <div class="nav-title" id="logo">
-                        <img src="img/cencol-logo.png" width="170px" style="margin-top:-25px;">
+                        <a href="https://www.centennialcollege.ca/" target="_blank"><img src="img/cencol-logo.png" alt="Centennial College Loog"
+                                width="170px" style="margin-top:-25px;"></a>
                     </div>
-
                 </div>
                 <div class="nav-btn">
                     <label for="nav-check">
@@ -62,7 +62,16 @@
             </div>
             <div class="row">
                 <div class="contact-column">
-                    <input class="white-input" type="text" required="" name="course_name" placeholder="Course Name">
+                    <select class="option-field1">
+                        <option value="courseName">Course Name</option>
+                        <option value="COMM161">College Communication</option>
+                        <option value="MATH175">Function and Number System</option>
+                        <option value="COMP100">Computer Programming</option>
+                        <option value="COOMP213">Web Programming</option>
+                        <option value="COMP120">Software Engineering</option>
+                        <option value="GNED219">General Education</option>
+
+                    </select>
                     <select class="option-field1">
                         <option value="semester">Semester</option>
                         <option value="fall">Fall</option>
@@ -71,7 +80,7 @@
                     </select>
                 </div>
                 <div class="contact-column">
-                    <input type="text" class=" white-input" required="" name="instructor_name" placeholder="Instructor">
+                    <input type="text" required="" name="instructor_name" placeholder="Instructor">
                     <select class="option-field1">
                         <option value="year">Year</option>
                         <option value="2021">2021</option>
@@ -79,13 +88,12 @@
                         <option value="2023">2023</option>
                         <option value="2024">2024</option>
                         <option value="2025">2025</option>
-
                     </select>
                 </div>
                 <div class="survey-send">
-                    <input value="See Questions" class="button" id="submit-button" type="submit">
+                    <input value="See Questions" class="button" id="submit-button" onclick="return;" type="submit">
                 </div>
-            </div>
+
         </section>
 
 
@@ -315,31 +323,39 @@
     <!-- begin section - Foooter -->
     <div class="footer">
         <div class="footer-tittle">
-            <p>Copyright &copy; 2021 Centennial College.
+            <p class="thankyou">Thank you! We pay attentioon to oyouor feedback!</p>
+            <div>
 
-                <!-- Read our
-                <a href="" target="_blank" style="color:#88ad45;" onClick="location.href='terms.html'">Terms and Services
-                </a> -->
-            </p>
+                <p><a href="https://www.centennialcollege.ca/programs-courses/summer-2021-full-time-program-delivery/returning-students/"
+                        target="_blank">Continuing Education</a></p>
+            </div>
+            <div>
+                <p><a href="mailto:ce@centennialcollege.ca" target="_blank">Email Us</a></p>
+            </div>
+            <div>
+                <p><a href="https://www.centennialcollege.ca/" target="_blank">Centennial College</a></p>
+            </div>
+            <div class="copyright">Copyright &copy; 2021 Centennial College.
+            </div>
             <ul class="footer-social">
                 <li>
-                    <a href="">
+                    <a href="https://twitter.com/CentennialEDU" target="_blank">
                         <i class="fa fa-twitter"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="">
-                        <i class="fa fa-pinterest"></i>
+                    <a href="https://instagram.com/centennialcollege/?hl=en" target="_blank">
+                        <i class="fa fa-instagram"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="https://www.facebook.com/centennialconed/" target="_blank">
                         <i class="fa fa-facebook"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="">
-                        <i class="fa fa-instagram"></i>
+                    <a href="https://www.linkedin.com/company/centennial-college/" target="_blank">
+                        <i class="fa fa-linkedin"></i>
                     </a>
                 </li>
             </ul>
